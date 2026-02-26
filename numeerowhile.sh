@@ -12,5 +12,8 @@ done
 
 # cat /etc/passwd |  grep grupo_A    >>> busca dentro del fichero passwd y se enfoca en el grupo_A
 
-#
+# sudo setfacl -m  m:r  archivo_1      >>> este fichero solo se puede LEER, da igual 
+si los usuarios tienen rw ó rwx  
+ES EL MAXIMO DE LOS PERMISOS
+
 
