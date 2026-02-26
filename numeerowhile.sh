@@ -6,4 +6,11 @@ while [ $i -le "$num" ];do
 echo "El numero es $i"
 i=$((i+1))
 done
-# sudo gpasswd -d  usuario    name_grupo
+
+# Comandos
+# sudo gpasswd -d  usuario    name_grupo  >>> elimina un usuario de un grupo_A por ejemplo
+
+# cat /etc/passwd |  grep grupo_A    >>> busca dentro del fichero passwd y se enfoca en el grupo_A
+
+#
+
