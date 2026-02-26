@@ -6,3 +6,4 @@ while [ $i -le "$num" ];do
 echo "El numero es $i"
 i=$((i+1))
 done
+# sudo gpasswd -d  usuario    name_grupo
